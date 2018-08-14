@@ -22,4 +22,6 @@ module.exports = function override(config, env) {
     modules: true,
     namedExport: true
   }
+
+  return config
 }
