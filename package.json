@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "typings-for-css-modules-loader": "^1.7.0"
+  },
   "devDependencies": {
     "prettier": "^1.14.2"
   },

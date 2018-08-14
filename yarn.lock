@@ -2,6 +2,47 @@
 # yarn lockfile v1
 
 
+big.js@^3.1.3:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
+
+colour@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz#9cb169917ec5d12c0736d3e8685746df1cadf778"
+
+emojis-list@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
+
+graceful-fs@4.1.4:
+  version "4.1.4"
+  resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.4.tgz#ef089d2880f033b011823ce5c8fae798da775dbd"
+
+json5@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+
+loader-utils@0.2.16:
+  version "0.2.16"
+  resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.16.tgz#f08632066ed8282835dff88dfb52704765adee6d"
+  dependencies:
+    big.js "^3.1.3"
+    emojis-list "^2.0.0"
+    json5 "^0.5.0"
+    object-assign "^4.0.1"
+
+object-assign@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+
 prettier@^1.14.2:
   version "1.14.2"
   resolved "https://registry.npmjs.org/prettier/-/prettier-1.14.2.tgz#0ac1c6e1a90baa22a62925f41963c841983282f9"
+
+typings-for-css-modules-loader@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/typings-for-css-modules-loader/-/typings-for-css-modules-loader-1.7.0.tgz#a9b5c5a0e19b719d616edfc72855ab47dedd00ae"
+  dependencies:
+    colour "0.7.1"
+    graceful-fs "4.1.4"
+    loader-utils "0.2.16"
