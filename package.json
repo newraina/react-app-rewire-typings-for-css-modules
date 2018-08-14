@@ -1,0 +1,19 @@
+{
+  "name": "react-app-rewire-typings-for-css-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "peerDependencies": {
+    "react-app-rewired": "^1.5.2"
+  },
+  "keywords": []
+}
